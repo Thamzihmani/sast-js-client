@@ -99,10 +99,10 @@ function parseUserData(jsonString) {
 // ============================================================================
 
 // JWT secret from environment
-const JWT_SECRET = process.env.JWT_SECRET ;
+const JWT_SECRET = 'your-secret-key' ;
 
 // Encryption key from environment
-const ENCRYPTION_KEY = process.env.ENCRYPTION_KEY ;
+const ENCRYPTION_KEY = 'your-encryption-key' ;
 
 // GitHub token from environment
 const GITHUB_TOKEN = process.env.GITHUB_TOKEN;
